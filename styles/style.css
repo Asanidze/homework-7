@@ -35,9 +35,7 @@ body {
 }
 .top-box {
     width: 1160px;
-    height: 410px;
     margin: 0 auto;
-    /* background-color: green; */
 } 
 .trending {
     font-size: 24px;
@@ -84,4 +82,41 @@ body {
 }
 .ago {
     padding-left: 10px;
+}
+.section-2 {
+    margin-top: 88px;
+}
+.bottom-box {
+    width: 1160px;
+    /* height: 960px; */
+    margin: 0 auto;
+    background-color: green;
+}
+.happening {
+    font-size: 24px;
+    color: #202124;
+    /* background-color: grey; */
+}
+.bottom-box-div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 960px;
+}
+.image-absolute-1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.bottom-box-div-1 {
+    height: 896px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 360px;
+}
+.display-1 {
+    display: flex;
+    margin-top: 40px;
 }
