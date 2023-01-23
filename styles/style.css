@@ -9,6 +9,7 @@ body {
     position: fixed;
     background-color: #F6F8F9;
     align-items: center;
+    font-family: 'Unbounded', cursive;
     z-index: 100;
 }
 .logo {
@@ -30,17 +31,22 @@ body {
     color: #343638;
     opacity: 50%;
 }
+.woman {
+    margin-left: 40px;
+}
 .section {
     padding-top: 50px;
 }
 .top-box {
     width: 1160px;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 } 
 .trending {
     font-size: 24px;
     color: #202124;
     padding-top: 30px;
+    font-family: 'Playfair Display', serif;
 }
 .display {
     display: flex;
@@ -65,13 +71,14 @@ body {
     top: 28px;
     font-size: 16px;
     color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+
 }
 .lorem {
     font-size: 13px;
     color: #A6ADB4;
     width: 280px;
     height: 38px;
-    /* background-color: lightcoral; */
     margin: 0 auto;
     margin-top: 66px;
     margin-bottom: 10px;
@@ -83,24 +90,24 @@ body {
 .ago {
     padding-left: 10px;
 }
-.section-2 {
-    margin-top: 88px;
-}
 .bottom-box {
     width: 1160px;
-    /* height: 960px; */
+    height:1200px;
     margin: 0 auto;
-    background-color: green;
+    margin-top: 88px;
+    font-family: 'Playfair Display', serif;
+    /* background-color: green; */
 }
 .happening {
     font-size: 24px;
     color: #202124;
-    /* background-color: grey; */
 }
 .bottom-box-div {
     display: flex;
     flex-wrap: wrap;
-    height: 960px;
+}
+.tree-margin {
+    margin-bottom: 40px;
 }
 .image-absolute-1 {
     position: absolute;
@@ -110,13 +117,20 @@ body {
     color: #FFFFFF;
 }
 .bottom-box-div-1 {
-    height: 896px;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    justify-content: center;
+    height: 834px;
     width: 360px;
+    /*   */
 }
 .display-1 {
     display: flex;
+    justify-content: space-between;
+    width: 1160px;
     margin-top: 40px;
+}
+.parrot {
+    margin-top: 102px;
+    margin-bottom: 102px;
 }
